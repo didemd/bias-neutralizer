@@ -6,8 +6,8 @@ text="He is a doctor. She is a teacher. They were there."
 def mock_bias_score(text: str) -> float:
     """
     Mock bias logic:
-    - If sentence has 'he is a doctor' → pretend bias is high (0.8)
-    - If sentence has 'she is a doctor' → pretend bias is lower (0.3)
+    - If sentence has 'he is a doctor' → pretend bias is high (0.8).
+    - If sentence has 'she is a doctor' → pretend bias is lower (0.3).
     - Otherwise → random number between 0.4 and 0.6 (neutral)
     """
     text = text.lower()

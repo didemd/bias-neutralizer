@@ -31,7 +31,7 @@ st.title("Bias-Aware Pronoun Neutralizer")
 txt = st.text_area("Enter your sentence:", "She is a doctor. He is a nurse.")
 
 if st.button("Run Neutralizer"):
-    # Neutralize
+    # Neutralize.
     neutralized = neutralize_regex(txt)
     # Bias score (mock for now)
     score = mock_bias_score(txt)
