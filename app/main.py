@@ -1,6 +1,6 @@
 import streamlit as st
 from neutralizeregex import neutralize_regex
-from bias import mock_bias_score
+from bias_hf import bias_score_hf
 
 import re
 
@@ -34,7 +34,7 @@ if st.button("Run Neutralizer"):
     # Neutralize.
     neutralized = neutralize_regex(txt)
     # Bias score (mock for now)
-    score = mock_bias_score(txt)
+    score = bias_score_hf(txt)
 
     st.subheader("Results")
     st.write("**Neutralized Text:**")
