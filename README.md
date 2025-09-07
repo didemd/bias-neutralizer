@@ -1,4 +1,4 @@
-# Bias-Aware Pronoun Neutralizer
+# Bias-Aware Pronoun Neutralizer Chatbot
 
 A simple **Streamlit app** that neutralizes gender-specific pronouns (e.g., *he/she → X*) and provides a **mock bias score**.  
 Built as a proof-of-concept chatbot to explore **bias detection, text preprocessing, and LLM integration** (Vertex AI / GPT).
