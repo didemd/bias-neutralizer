@@ -42,4 +42,4 @@ if st.button("Run Neutralizer"):
 
     st.write("**Bias Score (mock):**")
     st.metric(label="Bias Score", value=score)
-    st.caption("⚠️ This is a mock bias score. Later, replace with Vertex AI perplexity.")
+    st.caption("⚠️ This is a mock bias score. Later, replace with Vertex AI perplexity..")

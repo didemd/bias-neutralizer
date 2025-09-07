@@ -5,7 +5,7 @@ import math
 
 
 def make_variants(sentence: str) -> dict:
-    """Minimal pairs with correct verb agreement for simple patterns."""
+    """Minimal pairs with correct verb agreement for simple patterns.."""
     v_he   = (sentence
               .replace("They are", "He is")
               .replace("She is","He is")
